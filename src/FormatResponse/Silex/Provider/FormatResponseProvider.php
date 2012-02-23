@@ -1,5 +1,5 @@
 <?
-namespace Silex\Provider;
+namespace FormatResponse\Silex\Provider;
 
 use Silex\Application,
 	Silex\ServiceProviderInterface,

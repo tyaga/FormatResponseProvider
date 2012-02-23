@@ -6,7 +6,7 @@ use Silex\Application,
 	Symfony\Component\HttpFoundation\Response,
 	Symfony\Component\HttpKernel\Exception\HttpException;
 
-class RenderResponseProvider implements ServiceProviderInterface {
+class FormatResponseProvider implements ServiceProviderInterface {
 
 	public function register(Application $app) {
 		$app['render'] = $app->share(function () use ($app) {
